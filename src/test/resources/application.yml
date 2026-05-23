@@ -14,3 +14,5 @@ server:
 
 jwt:
   secret: test-secret-value-with-at-least-thirty-two-characters
+  access-token-expiration-ms: 900000
+  refresh-token-expiration-ms: 604800000
